@@ -6,4 +6,5 @@ Integrantes:
 - Caleb Alejandro Peñate Deras PD230166
 - Camila Elizabeth Castillo Joya CJ220498
 - Daniel Ernesto Alvarado Roque AR220441
-
+- Manuel Ezequiel Guerrero Granados GG241501
+- 
