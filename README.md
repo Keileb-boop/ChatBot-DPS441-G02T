@@ -7,7 +7,7 @@ Desarrolladores
 - Camila Elizabeth Castillo Joya CJ220498
 - Daniel Ernesto Alvarado Roque AR220441
 - Manuel Ezequiel Guerrero Granados GG241501
-- Lucia Milena Hernández Bonilla
+- Lucia Milena Hernández Bonilla HB221258
 
 
 
