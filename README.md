@@ -29,3 +29,41 @@ van sin acento, en minúsculas o mayusculas o si se escribe de una manera distin
 3. Tiene una poca exigencia de como se escriben las cosas, preferiblemente poner toda la oración :)
 
 
+
+***************************************************************************************************************
+
+--INSTALAR CHATBOT EN VISUAL STUDIO CODE--
+
+1- Descargar e instalar Node js para el sistema operativo desde la página oficial " https://nodejs.org/en/download ".
+
+2- Abrir con las teclas " *Windows + r* " para ejecutar el siguiente comando *%appdata%*.
+
+3- Dentro de la carpeta donde abra el comando anterior en "Roaming" crear una carpeta llamada *npm*.
+
+4- Dentro de la carpeta npm colocar allí la carpeta del chatbot completa.
+
+5- Abrir la carpeta hasta donde estén todos los archivos y abrir esa carpeta en termina parar colocar en la terminal *code .*.
+
+6- Se abrirá el programa VS Code con la carpeta del chatbot y sus archivos, luego abrir una terminal con la combinación de teclas " ctrl + shift + ñ ".
+
+7- Dentro de la terminal escribir el siguiente comando *npm install* esto descargará la carpeta "nodule_modules" que contiene todas las librerias.
+
+8-Luego de instalar las librerias procedemos a correr el chatbot con el siguiente comando *npm start*.
+
+9-Si todo todo salió bien debería abrir el navegador en la terminal 3000 de localhost.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
