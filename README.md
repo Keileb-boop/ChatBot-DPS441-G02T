@@ -43,7 +43,7 @@ van sin acento, en minúsculas o mayusculas o si se escribe de una manera distin
 
 4- Dentro de la carpeta npm colocar allí la carpeta del chatbot completa.
 
-5- Abrir la carpeta hasta donde estén todos los archivos y abrir esa carpeta en termina parar colocar en la terminal *code .*.
+5- Abrir la carpeta hasta donde estén todos los archivos y abrir esa carpeta en termina parar colocar en la terminal *code .*
 
 6- Se abrirá el programa VS Code con la carpeta del chatbot y sus archivos, luego abrir una terminal con la combinación de teclas " ctrl + shift + ñ ".
 
