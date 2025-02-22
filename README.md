@@ -12,7 +12,6 @@ Integrantes:
 ( ﾉ ﾟｰﾟ)ﾉ Pasos para crear código con Github Copilot en VS Code ( ﾉ ﾟｰﾟ)ﾉ
 
 
-//Para reconocer cararteres
 ---> Para reconocer cararteres
 
 1. Se le pide que detecte palabras clave para que se reconozcan al momento de ingresarlos en el chat, incluso si 
@@ -20,7 +19,6 @@ van sin acento, en minúsculas o mayusculas o si se escribe de una manera distin
 **MessageParser.jsx**
 
 
-//Para que el chatbot conteste las preguntas en **ActionProvider**
 ---> Para que el chatbot conteste las preguntas en **ActionProvider**
 
 2. Para las preguntas, se le pide a copilot que nos cree las respuestas con respecto a las preguntas solicitadas :D
