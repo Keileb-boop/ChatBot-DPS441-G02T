@@ -64,7 +64,12 @@ class MessageParser {
 
             //Aquí tiene que ir  reconocer palabras clave para preguntas sobre apoyo y bienestar estudiantil
 
-            
+        } else if (normalizedMessage.includes("apoyo emocional") || normalizedMessage.includes("bienestar estudiantil") || normalizedMessage.includes("ayuda emocional")) {
+            this.actionProvider.handleEmotionalSupport();
+        } else if (normalizedMessage.includes("recursos disponibles para estudiantes con discapacidades") || normalizedMessage.includes("ayuda para estudiantes con discapacidades")) {
+                this.actionProvider.handleDisabilityResources();
+        } else if (normalizedMessage.includes("servicios de asesoramiento") || normalizedMessage.includes("tutoria para mejorar mi rendimiento academico") || normalizedMessage.includes("servicios de tutoría para mejorar mi rendimiento academico")) {
+            this.actionProvider.handleAcademicCounseling();
 
 
 
