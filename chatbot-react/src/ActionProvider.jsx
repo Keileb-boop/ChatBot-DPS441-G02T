@@ -64,7 +64,20 @@ handleCampusEvents = () => {
 
 //Desde aquí es con respecto a apoyo y bienestar estudiantil
 
+handleEmotionalSupport = () => {
+  const message = this.createChatBotMessage("Para apoyo emocional y manejo del estrés, visita el centro de bienestar estudiantil. Contacto: bienestar.estudiantil@udb.edu o  7896-3491.");
+  this.updateChatbotState(message);
+};
 
+handleDisabilityResources = () => {
+  const message = this.createChatBotMessage("Accede a recursos para discapacidades a través de la oficina de servicios para discapacitados. Contacto: discapacidades@udb.edu o  6356-7092.");
+  this.updateChatbotState(message);
+};
+
+handleAcademicCounseling = () => {
+  const message = this.createChatBotMessage("Mejora tu rendimiento académico con asesoramiento y tutoría en el centro de apoyo académico. Contacto: academico@udb.edu o  7456-7893.");
+  this.updateChatbotState(message);
+};
 
 
 
