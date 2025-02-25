@@ -97,14 +97,6 @@ handlejobinterview = () => {
 };
 
 
-
-
-
-
-
-
-
-  
     updateChatbotState(message) {
       this.setState((prevState) => ({
         ...prevState,

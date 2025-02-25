@@ -82,12 +82,17 @@ class MessageParser {
 
 
 
+           
+            // Vida estudiantil y eventos sociales
 
+        } else if (normalizedMessage.includes("clubes en el campus") || normalizedMessage.includes("actividades extracurriculares disponibles")) {
+            this.actionProvider.handleCampusClubs();
+        } else if (normalizedMessage.includes("actividad interesante este fin de semana") || normalizedMessage.includes("eventos en el campus este fin de semana")) {
+            this.actionProvider.handleWeekendEvents();
+        } else if (normalizedMessage.includes("opciones de alimentacion en el campus") || normalizedMessage.includes("donde puedo comer en el campus")) {
+            this.actionProvider.handleCampusDining();
 
-
-
-
-
+            //fin de la visa estudiantil y eventos sociales
 
 
 
