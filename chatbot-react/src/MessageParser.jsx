@@ -72,10 +72,15 @@ class MessageParser {
             this.actionProvider.handleAcademicCounseling();
 
 
-
-
-
-
+           //Reconociendo palabras clave para Orientación sobre carrera
+        } else if (normalizedMessage.includes("pasantías y prácticas") || normalizedMessage.includes("desarrollo profesional") || normalizedMessage.includes("informacion sobre pasantias")) {
+            this.actionProvider.handleInternships();
+        } else if (normalizedMessage.includes("Curriculum vitae") || normalizedMessage.includes("recursos para ayudar a escribir CV") || normalizedMessage.includes("preparacion para el trabajo")) {
+            this.actionProvider.handleCV();
+        } else if (normalizedMessage.includes("entrevistas de trabajo") || normalizedMessage.includes("talleres disponibles para preparacion de entrevistas") || normalizedMessage.includes("preparacion para entrevistas")) {
+            this.actionProvider.handleChatbotName();
+          //fin de Orientación sobre carrera   
+               
 
 
 
