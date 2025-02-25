@@ -73,11 +73,11 @@ class MessageParser {
 
             //Reconociendo palabras clave para Orientación sobre carrera
         } else if (normalizedMessage.includes("pasantías y prácticas") || normalizedMessage.includes("Cómo puedo encontrar pasantías o prácticas profesionales") || normalizedMessage.includes("informacion sobre pasantias o prácticas profesionales")) {
-            this.actionProvider.handleInternships();
+            this.actionProvider.handleinternshipsandpracticums();
         } else if (normalizedMessage.includes("curriculum vitae") || normalizedMessage.includes("recursos para ayudarme a escribir curriculum cv") || normalizedMessage.includes("ayuda para escribir curriculum vitae")) {
-            this.actionProvider.handleCV();
+            this.actionProvider.handlecurriculumvitae();
         } else if (normalizedMessage.includes("entrevistas de trabajo") || normalizedMessage.includes("talleres disponibles para prepararme para entrevistas de trabajo") || normalizedMessage.includes("preparacion para entrevistas")) {
-            this.actionProvider.handlejobinterview();
+            this.actionProvider.handlejobinterviews();
           //fin de Orientación sobre carrera  
 
 
