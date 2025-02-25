@@ -98,7 +98,7 @@ handlejobinterview = () => {
 
 
 
-//La  Vida estudiantil y eventos sociales 
+//La Vida estudiantil y eventos sociales 
 
 
     handleCampusClubs = () => {
