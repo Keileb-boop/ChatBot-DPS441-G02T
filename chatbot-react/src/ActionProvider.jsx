@@ -81,17 +81,17 @@ handleAcademicCounseling = () => {
 
 //Tematica: Orientación sobre carrera y desarrollo profesional
 
-handleinternshipsandpracticums = () => {
+handleInternshipsAndPracticums = () => {
   const message = this.createChatBotMessage("Para información sobre pasantías y prácticas profesionales, contacta a la oficina de desarrollo profesional. Contacto: 2251-8213");
   this.updateChatbotState(message);
 };
 
-handlecurriculumvitae = () => {
+handleCurriculumVitae = () => {
   const message = this.createChatBotMessage("Para asesoramiento sobre cómo crear un currículum vitae efectivo, visita el centro de desarrollo profesional. Contacto: 2251-8213");
   this.updateChatbotState(message);
 };
 
-handlejobinterviews = () => {
+handleJobInterviews = () => {
   const message = this.createChatBotMessage("Prepárate para una entrevista de trabajo exitosa con la ayuda del centro de desarrollo profesional. Contacto: 2251-8213");
   this.updateChatbotState(message);
 };
