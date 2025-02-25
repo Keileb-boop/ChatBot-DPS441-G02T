@@ -71,6 +71,15 @@ class MessageParser {
         } else if (normalizedMessage.includes("servicios de asesoramiento") || normalizedMessage.includes("tutoria para mejorar mi rendimiento academico") || normalizedMessage.includes("servicios de tutoría para mejorar mi rendimiento academico")) {
             this.actionProvider.handleAcademicCounseling();
 
+            //Reconociendo palabras clave para Orientación sobre carrera
+        } else if (normalizedMessage.includes("pasantías y prácticas") || normalizedMessage.includes("Cómo puedo encontrar pasantías o prácticas profesionales") || normalizedMessage.includes("informacion sobre pasantias o prácticas profesionales")) {
+            this.actionProvider.handleInternships();
+        } else if (normalizedMessage.includes("curriculum vitae") || normalizedMessage.includes("recursos para ayudarme a escribir curriculum cv") || normalizedMessage.includes("ayuda para escribir curriculum vitae")) {
+            this.actionProvider.handleCV();
+        } else if (normalizedMessage.includes("entrevistas de trabajo") || normalizedMessage.includes("talleres disponibles para prepararme para entrevistas de trabajo") || normalizedMessage.includes("preparacion para entrevistas")) {
+            this.actionProvider.handlejobinterview();
+          //fin de Orientación sobre carrera  
+
 
 
 
