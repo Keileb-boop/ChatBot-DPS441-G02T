@@ -98,6 +98,27 @@ handlejobinterview = () => {
 
 
 
+//La Vida estudiantil y eventos sociales 
+
+
+    handleCampusClubs = () => {
+        const message = this.createChatBotMessage("Nuestra universidad ofrece una variedad de clubes y actividades extracurriculares, como clubes de debate, deportes, arte y tecnología. Puedes consultar la lista completa en el portal estudiantil.");
+        this.updateChatbotState(message);
+    };
+
+    handleWeekendEvents = () => {
+        const message = this.createChatBotMessage("Este fin de semana hay una noche de cine al aire libre el sábado y una feria gastronómica el domingo. ¡Te esperamos!");
+        this.updateChatbotState(message);
+    };
+
+    handleCampusDining = () => {
+        const message = this.createChatBotMessage("En el campus, puedes encontrar varias opciones de alimentación, incluyendo cafeterías, comedores universitarios y restaurantes. Consulta los menús y horarios en la web de la universidad.");
+
+//fin de la visa estudiantil y eventos sociales 
+
+
+
+
     updateChatbotState(message) {
       this.setState((prevState) => ({
         ...prevState,
