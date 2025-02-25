@@ -114,6 +114,7 @@ handlejobinterview = () => {
     handleCampusDining = () => {
         const message = this.createChatBotMessage("En el campus, puedes encontrar varias opciones de alimentación, incluyendo cafeterías, comedores universitarios y restaurantes. Consulta los menús y horarios en la web de la universidad.");
 
+//fin de la visa estudiantil y eventos sociales 
 
 
 
