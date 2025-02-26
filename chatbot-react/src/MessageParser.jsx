@@ -72,14 +72,12 @@ class MessageParser {
             this.actionProvider.handleAcademicCounseling();
 
             //Reconociendo palabras clave para Orientación sobre carrera
-        } else if (normalizedMessage.includes("pasantías y prácticas") || normalizedMessage.includes("Cómo puedo encontrar pasantías o prácticas profesionales") || normalizedMessage.includes("informacion sobre pasantias o prácticas profesionales")) {
-            this.actionProvider.handleInternshipsAndPracticums();
-        } else if (normalizedMessage.includes("curriculum vitae") || normalizedMessage.includes("recursos para ayudarme a escribir curriculum cv") || normalizedMessage.includes("ayuda para escribir curriculum vitae")) {
-            this.actionProvider.handleCurriculumVitae();
-        } else if (normalizedMessage.includes("entrevistas de trabajo") || normalizedMessage.includes("talleres disponibles para prepararme para entrevistas de trabajo") || normalizedMessage.includes("preparacion para entrevistas")) {
-            this.actionProvider.handleJobInterviews();
-          //fin de Orientación sobre carrera  
-
+        }else if (normalizedMessage.includes("pasantias") || normalizedMessage.includes("oportunidades de pasantias") || normalizedMessage.includes("carreras profesionales")) {
+            this.actionProvider.handleInternships();
+        }else if (normalizedMessage.includes("currículum") || normalizedMessage.includes("hoja de vida") || normalizedMessage.includes("como hacer un currículum")) { 
+            this.actionProvider.handleResume();
+        }else if (normalizedMessage.includes("entrevistas") || normalizedMessage.includes("preparacion para entrevistas") || normalizedMessage.includes("como prepararme para una entrevista")) {
+            this.actionProvider.handleInterviewPreparation();
 
 
            
