@@ -58,6 +58,7 @@ handleCampusEvents = () => {
   this.updateChatbotState(message);
 };
 
+
 //Hasta aquí es con respecto a los recursos y servicios del campus
 
 
@@ -86,13 +87,13 @@ handleInternships = () => {
   this.updateChatbotState(message);
 };
 
-handleResume = () => {
-  const message = this.createChatBotMessage("Obtén ayuda para crear un currículum profesional en la oficina de carreras profesionales.");
+handleInterviewPreparation = () => {
+  const message = this.createChatBotMessage("Prepárate para entrevistas de trabajo con talleres y recursos en la oficina de carreras profesionales.");
   this.updateChatbotState(message);
 };
 
-handleInterviewPreparation = () => {
-  const message = this.createChatBotMessage("Prepárate para entrevistas de trabajo con talleres y recursos en la oficina de carreras profesionales.");
+handleJobFair = () => {
+  const message = this.createChatBotMessage("La universidad ofrece recursos para ayudarte a escribir un currículum, prepararte para entrevistas y buscar oportunidades de empleo. Puedes visitar la oficina de carreras profesionales para obtener más información.");
   this.updateChatbotState(message);
 };
 

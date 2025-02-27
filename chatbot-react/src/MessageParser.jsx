@@ -74,11 +74,10 @@ class MessageParser {
             //Reconociendo palabras clave para Orientación sobre carrera
         }else if (normalizedMessage.includes("pasantias") || normalizedMessage.includes("oportunidades de pasantias") || normalizedMessage.includes("carreras profesionales")) {
             this.actionProvider.handleInternships();
-        }else if (normalizedMessage.includes("currículum") || normalizedMessage.includes("hoja de vida") || normalizedMessage.includes("como hacer un currículum")) { 
-            this.actionProvider.handleResume();
         }else if (normalizedMessage.includes("entrevistas") || normalizedMessage.includes("preparacion para entrevistas") || normalizedMessage.includes("como prepararme para una entrevista")) {
             this.actionProvider.handleInterviewPreparation();
-
+        }else if (normalizedMessage.includes("currículum") || normalizedMessage.includes("hoja de vida cv") || normalizedMessage.includes("como puedo escribir mi cv")) {
+            this.actionProvider.handleJobFair();
 
            
             // Vida estudiantil y eventos sociales
@@ -91,10 +90,6 @@ class MessageParser {
             this.actionProvider.handleCampusDining();
 
             //fin de la visa estudiantil y eventos sociales
-
-
-
-
 
         } else {
             this.actionProvider.handleGreeting();
